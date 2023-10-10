@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    height:1024px;
+    background-color: blanchedalmond;
+    
+}
+.container .box{
+    width:684px;
+    height: 1024px;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-image: url(../imag/背景.jpg);
+    /* background-color: pink; */
+
+}
+.tab{
+    width: 400px;
+    height: 280px;
+    background-color: rgba(200,200,200,0.7);
+    border-radius: 20px;
+    padding: 20px;
+    
+    /* background-color: cadetblue; */
+}
+.content{
+
+    width:340px ;
+    height: 240px;
+    margin: 0 auto;
+}
+.title{
+    height:70px ;
+
+    padding-top: 20px;
+    /* background-color: aquamarine; */
+    font:  700 26px 宋体;   
+    border-bottom: 2px solid #000;
+
+}
+#gender{
+    margin-top: 10px;
+}
+#birth{
+    margin-top: 20px;
+}
+#marriage{
+    margin-top: 20px;
+}
+.in{
+    margin-top: 20px;
+}
